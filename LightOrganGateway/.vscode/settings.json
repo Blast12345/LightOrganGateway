@@ -1,0 +1,20 @@
+{
+    "triggerTaskOnSave.restart": true,
+    "triggerTaskOnSave.selectedTask": "Run Linters",
+    "triggerTaskOnSave.tasks": {
+        "build": [
+            "*.{cpp,h}",
+        ],
+    },
+    "C_Cpp.clang_format_sortIncludes": true,
+    "files.associations": {
+        "array": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp"
+    },
+}
