@@ -1,0 +1,23 @@
+@startuml
+
+!include https://raw.githubusercontent.com/Blast12345/Synesthetic/refs/heads/main/diagrams/puml-theme-synesthetic.puml
+
+' orientation
+left to right direction
+
+' components
+rectangle {
+    node Server
+    node Gateway
+    node Client1
+    node Client2
+    node Client3
+}
+
+' relationships
+Server --> Gateway : "Serial"
+Gateway -[dotted]-> Client1
+Gateway -[dotted]-> Client2 : "ESP-NOW"
+Gateway -[dotted]-> Client3
+
+@enduml
