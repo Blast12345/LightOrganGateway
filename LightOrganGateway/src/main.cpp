@@ -1,6 +1,5 @@
-#include "helpers/Wait.h"
 #include <optional>
-
+#include "helpers/Wait.h"
 #include "serial/SerialReader.h"
 
 SerialReader serialReader(Serial);
@@ -15,9 +14,9 @@ void setup() {
 
 // cppcheck-suppress unusedFunction
 void loop() {
-  optional<String> nextString = serialReader.getNextString();
+  optional<String> nextLine = serialReader.getNextLine();
 
-  if (nextString) {
-    Serial.println("USB Data Received: " + nextString.value());
+  if (nextLine) {
+    Serial.println("USB Data Received: " + nextLine.value());
   }
 }

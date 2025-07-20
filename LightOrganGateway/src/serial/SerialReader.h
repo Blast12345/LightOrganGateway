@@ -13,7 +13,7 @@ public:
     explicit SerialReader(HardwareSerial &serial) : serial(serial) {
     }
 
-    auto getNextString() const -> optional<String> {
+    auto getNextLine() const -> optional<String> {
         if (serial.available() == 0) {
             return nullopt;
         }
