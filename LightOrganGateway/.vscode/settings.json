@@ -1,6 +1,6 @@
 {
-    "triggerTaskOnSave.restart": true,
     "triggerTaskOnSave.selectedTask": "Run Linters",
+    "triggerTaskOnSave.restart": true,
     "triggerTaskOnSave.tasks": {
         "build": [
             "*.{cpp,h}",
@@ -15,6 +15,7 @@
         "unordered_set": "cpp",
         "vector": "cpp",
         "string_view": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "cstring": "cpp"
     },
 }
