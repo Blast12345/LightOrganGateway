@@ -340,5 +340,6 @@
     <option name="/Default/CodeStyle/CodeFormatting/CppFormatting/WRAP_BEFORE_TERNARY_OPSIGNS/@EntryValue" value="true" type="bool" />
     <option name="/Default/CodeStyle/CodeFormatting/CppFormatting/WRAP_PARAMETERS_STYLE/@EntryValue" value="WRAP_IF_LONG" type="string" />
     <option name="/Default/CodeStyle/CppIncludeDirective/SortIncludeDirectives/@EntryValue" value="true" type="bool" />
+    <option name="/Default/CodeStyle/CppIncludeDirective/UseRelativePaths/@EntryValue" value="Always" type="string" />
   </component>
 </project>
