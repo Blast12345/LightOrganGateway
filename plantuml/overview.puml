@@ -1,0 +1,22 @@
+@startuml
+
+!include https://raw.githubusercontent.com/Blast12345/Synesthetic/refs/heads/main/plantuml/theme.puml
+
+' orientation
+left to right direction
+
+' components
+node Server
+node Gateway $TEAL
+node Client1 as "Client 1"
+node Client2 as "Client 2"
+node Client3 as "Client 3"
+
+' relationships
+Server --> Gateway : "Serial"
+
+Gateway -[dotted]-> Client1
+Gateway -[dotted]-> Client2 : "ESP-NOW"
+Gateway -[dotted]-> Client3
+
+@enduml
