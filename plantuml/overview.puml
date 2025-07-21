@@ -14,7 +14,6 @@ node Client3 as "Client 3"
 
 ' relationships
 Server --> Gateway : "Serial"
-
 Gateway -[dotted]-> Client1
 Gateway -[dotted]-> Client2 : "ESP-NOW"
 Gateway -[dotted]-> Client3
