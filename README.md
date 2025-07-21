@@ -12,7 +12,9 @@ ESP-NOW protocol.
 The gateway is necessary because the ESP-NOW protocol is only supported on ESP devices, so the server (i.e. a computer)
 cannot communicate directly with the clients.
 
-![Overview](plantuml/overview.svg)
+<div align="center">
+  <img src="plantuml/overview.svg" alt="Overview">
+</div>
 
 ### Why not Wi-Fi?
 
