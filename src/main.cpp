@@ -10,7 +10,9 @@ SerialReader *serialReader;
 ClientNetwork *clientNetwork;
 
 void setup() {
+    #ifdef DEBUG
     delay(DEBUG_DELAY);
+    #endif
     
     Serial.begin(BAUD_RATE);
     Serial.println("Baud rate set to: " + String(BAUD_RATE));
