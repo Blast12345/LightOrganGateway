@@ -9,6 +9,7 @@ namespace StringHelpers {
     
     static auto toHexString(const uint8_t byte) -> String {
         String output(byte, HEX);
+        output.toUpperCase();
         
         if (output.length() == 2) {
             return output;
