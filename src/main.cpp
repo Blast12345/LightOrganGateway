@@ -14,7 +14,7 @@ void setup() {
     
     Serial.begin(BAUD_RATE);
     Serial.println("Baud rate set to: " + String(BAUD_RATE));
-    serialReader = new SerialReader(Serial); // NOLINT
+    serialReader = new SerialReader(Serial);
     
     WiFi.mode(WIFI_STA); // NOLINT
     
@@ -25,7 +25,7 @@ void setup() {
     */
     delay(WIFI_WARMUP);
     
-    clientNetwork = new ClientNetwork(); // NOLINT
+    clientNetwork = new ClientNetwork();
 }
 
 void loop() {
