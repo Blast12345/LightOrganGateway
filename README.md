@@ -53,4 +53,3 @@ Unix systems (Linux, macOS):
     - [CLion inspections](https://www.jetbrains.com/help/clion/command-line-code-inspector.html)
 - Set up testing suite
 - Set up automated testing on PR
-- 
